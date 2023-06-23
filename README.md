@@ -1,33 +1,35 @@
-# Monty Bytecode Interpreter
+<div align="center">
+  <img src="monty.png" alt="Monty Bytecode Interpreter">
+</div>
 
 This repository contains a Monty Bytecode Interpreter implemented in C. It is designed to execute Monty byte code files and follows specific guidelines and requirements.
 
-# Requirements
+## Requirements
 
-## Editors: vi, vim, emacs
-## Compiler: gcc on Ubuntu 20.04 LTS
-## Compiler options: -Wall -Werror -Wextra -pedantic -std=c89
-## Code should follow the Betty style guidelines
-## Only one global variable is allowed
-## Maximum of 5 functions per file
-## C standard library can be used
-## Function prototypes should be included in the monty.h header file
-## Header files should be include guarded
+- Editors: vi, vim, emacs
+- Compiler: gcc on Ubuntu 20.04 LTS
+- Compiler options: -Wall -Werror -Wextra -pedantic -std=c89
+- Code should follow the Betty style guidelines
+- Only one global variable is allowed
+- Maximum of 5 functions per file
+- C standard library can be used
+- Function prototypes should be included in the monty.h header file
+- Header files should be include guarded
 
-# Data Structures
+## Data Structures
 
 The interpreter uses the following data structures:
 
-## stack_s: Doubly linked list node structure representing a stack or queue
-## instruction_s: Structure for an opcode and its associated function
+- stack_s: Doubly linked list node structure representing a stack or queue
+-  instruction_s: Structure for an opcode and its associated function
 
-# Compilation & Output
+## Compilation & Output
 
 To compile the code, use the following command:
 ```shell
 $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 ```
-# Usage
+## Usage
 
 To run the Monty Bytecode Interpreter, use the following command:
 ```shell
