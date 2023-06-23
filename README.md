@@ -2,6 +2,12 @@
   <img src="monty.png" alt="Monty Bytecode Interpreter">
 </div>
 
+<h1 align="center">
+  <pre>
+    Monty Bytecode Interpreter
+  </pre>
+</h1>
+
 This repository contains a Monty Bytecode Interpreter implemented in C. It is designed to execute Monty byte code files and follows specific guidelines and requirements.
 
 ## Requirements
@@ -27,7 +33,7 @@ The interpreter uses the following data structures:
 
 To compile the code, use the following command:
 ```shell
-$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ```
 ## Usage
 
